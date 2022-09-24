@@ -2,6 +2,6 @@
 
 int main()
 {
-	char ch = puts()
+	printf("hello world");
 	return 0;
 }

@@ -30,10 +30,10 @@ void rearrange(char* input, int* columns, int n_columns, char* output)
 	int n_char;
 	for (int i = 0; i < n_columns; i += 2)
 	{
-		n_char = columns[i + 1] - columns[i];
+		n_char = columns[i + 1] - columns[i] + 1;
 		if (output_len + n_char > len) n_char = len - output_len;
 
-		strncpy(output + output_len, input + i, n_char);
+		strncpy(output + output_len, input + columns[i] - 1, n_char);
 		output_len += n_char;
 	}
 

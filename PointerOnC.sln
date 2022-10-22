@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RearrangeLine", "RearrangeL
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers", "Pointers\Pointers.vcxproj", "{79470140-5E64-4197-854D-13ECF22E7A92}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SortListOfIntegers", "SortListOfIntegers\SortListOfIntegers.vcxproj", "{9415EDF8-9BB2-4438-902D-26662B3816BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{79470140-5E64-4197-854D-13ECF22E7A92}.Release|x64.Build.0 = Release|x64
 		{79470140-5E64-4197-854D-13ECF22E7A92}.Release|x86.ActiveCfg = Release|Win32
 		{79470140-5E64-4197-854D-13ECF22E7A92}.Release|x86.Build.0 = Release|Win32
+		{9415EDF8-9BB2-4438-902D-26662B3816BC}.Debug|x64.ActiveCfg = Debug|x64
+		{9415EDF8-9BB2-4438-902D-26662B3816BC}.Debug|x64.Build.0 = Debug|x64
+		{9415EDF8-9BB2-4438-902D-26662B3816BC}.Debug|x86.ActiveCfg = Debug|Win32
+		{9415EDF8-9BB2-4438-902D-26662B3816BC}.Debug|x86.Build.0 = Debug|Win32
+		{9415EDF8-9BB2-4438-902D-26662B3816BC}.Release|x64.ActiveCfg = Release|x64
+		{9415EDF8-9BB2-4438-902D-26662B3816BC}.Release|x64.Build.0 = Release|x64
+		{9415EDF8-9BB2-4438-902D-26662B3816BC}.Release|x86.ActiveCfg = Release|Win32
+		{9415EDF8-9BB2-4438-902D-26662B3816BC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,7 +12,11 @@ MACRO is replace variable by stuff
 
 //#define PRINT(FORMAT, VALUE) printf("The value is" FORMAT "\n", VALUE)
 #define PRINT(FORMAT, VALUE) printf("The value" #VALUE " is" FORMAT "\n", VALUE) //#argument is translated by the preprocessor into "argument"
-#define ADD_TO_SUM(sum_number, value) sum##sum_number += value 
+#define ADD_TO_SUM(sum_number, value) sum##sum_number += value  //sum2 += value concatenation
+
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+#define MALLOC(n, type) ((type*)malloc((n) * sizeof(type)))
 
 int main()
 {

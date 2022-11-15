@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32929.385
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{A084813E-8330-4A82-B966-97C3E8CF62E8}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Random", "Random\Random.vcxproj", "{36A866F6-5153-4ED6-A6F4-8317FC45EFAC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Time", "Time\Time.vcxproj", "{6836564A-82F9-430E-8BE4-402D85D6246B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "setjmp", "setjmp\setjmp.vcxproj", "{7FEC7826-1F73-4DEC-8BCA-9BE88396EF5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,14 @@ Global
 		{6836564A-82F9-430E-8BE4-402D85D6246B}.Release|x64.Build.0 = Release|x64
 		{6836564A-82F9-430E-8BE4-402D85D6246B}.Release|x86.ActiveCfg = Release|Win32
 		{6836564A-82F9-430E-8BE4-402D85D6246B}.Release|x86.Build.0 = Release|Win32
+		{7FEC7826-1F73-4DEC-8BCA-9BE88396EF5C}.Debug|x64.ActiveCfg = Debug|x64
+		{7FEC7826-1F73-4DEC-8BCA-9BE88396EF5C}.Debug|x64.Build.0 = Debug|x64
+		{7FEC7826-1F73-4DEC-8BCA-9BE88396EF5C}.Debug|x86.ActiveCfg = Debug|Win32
+		{7FEC7826-1F73-4DEC-8BCA-9BE88396EF5C}.Debug|x86.Build.0 = Debug|Win32
+		{7FEC7826-1F73-4DEC-8BCA-9BE88396EF5C}.Release|x64.ActiveCfg = Release|x64
+		{7FEC7826-1F73-4DEC-8BCA-9BE88396EF5C}.Release|x64.Build.0 = Release|x64
+		{7FEC7826-1F73-4DEC-8BCA-9BE88396EF5C}.Release|x86.ActiveCfg = Release|Win32
+		{7FEC7826-1F73-4DEC-8BCA-9BE88396EF5C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

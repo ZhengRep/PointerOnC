@@ -17,6 +17,8 @@ int main()
 
 	//char* env = getenv("path");
 
-	system("notepad.exe");
+	//system("notepad.exe");
+
+
 	return 0;
 }

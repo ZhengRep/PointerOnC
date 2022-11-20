@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "Header.h"
+#include "Header.c"
 
 int main()
 {

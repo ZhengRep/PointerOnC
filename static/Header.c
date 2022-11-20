@@ -1,6 +1,6 @@
 #include "Header.h"
 
-static int sa = 5;
+int sa = 5;
 
 void fun()
 {
